@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #007aff;
+    padding: 20px;
+    color: black;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    color: #ffc107;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .images img {
+    margin: 10px;
+    border: 2px solid #007aff;
+    border-radius: 8px;
+  }
+  
+  footer {
+    background-color: black
+    color: white;
+    text-align: center;
+    padding: 15px;
+  }
+  
+  .coffees {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .coffees h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #3e5c50;
+  }
+  
+  .images-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columns per row */
+    gap: 20px;
+    justify-items: center;
+  }
+  
+  .images-grid img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  }
+  
